@@ -1,0 +1,10 @@
+model:
+  input_dim: 23  # Number of input features (PMSSM parameters)
+  hidden_dim: 512
+
+training:
+  learning_rate: 0.001
+  weight_decay: 0.01
+  num_epochs: 5
+  batch_size: 128
+  early_stopping_patience: 10s

@@ -1,0 +1,10 @@
+model:
+  input_dim: 17  # Number of input features (matches len(feature_columns))
+  hidden_dim: 64
+
+training:
+  learning_rate: 0.001
+  weight_decay: 0.01
+  num_epochs: 100
+  batch_size: 32
+  early_stopping_patience: 10 
